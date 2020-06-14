@@ -1,0 +1,84 @@
+.wrapper{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #4b5320;
+}
+
+h3{
+	padding-top: 80px;
+	color: #b1a688;
+	text-align: center;
+	font-size: 40px;
+}
+
+h4{
+	color: #a5b646;
+	text-align: center;
+	font-size: 25px;
+    padding: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    background: #353535;
+    color: white;
+}
+
+#history_box{
+    width: 1237px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    height: 480px;
+    border: solid 2px #000;
+}
+
+#drop_box {
+    display: inline-block;
+    margin: 20px 0.5px 0px 0.5px;
+}
+
+.drop_box {
+    width: 412px;
+    height: 230px;
+    float: left;
+    position: relative;
+  
+}
+.drop_box div { 
+    background-size: cover;
+    width: 230px;
+    height: 230px;
+}
+
+#choose_box{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.tank {
+    width: 100px;
+    height: 100px;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+
+.tank .tanker {
+    background-size: cover;
+    height: 100px;
+    width:100px;
+}
+
+#tiger{
+    background-image: url(../images/tiger.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
